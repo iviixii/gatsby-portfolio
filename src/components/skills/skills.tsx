@@ -9,7 +9,7 @@ import styles from './skills.module.scss';
 const query = graphql`
   {
     technologies: allContentfulAllContentfulSkill(
-      filter: { name: { ne: null }, label: { eq: "Technology" }, node_locale: { eq: "en-US"} }
+      filter: { name: { ne: null }, label: { eq: "Technology" } }
       sort: { fields: name, order: ASC }
     ) {
       nodes {
@@ -19,7 +19,7 @@ const query = graphql`
       }
     }
     communication: allContentfulAllContentfulSkill(
-      filter: { name: { ne: null }, label: { eq: "Communication" }, node_locale: { eq: "en-US"} }
+      filter: { name: { ne: null }, label: { eq: "Communication" } }
       sort: { fields: name, order: ASC }
     ) {
       nodes {
@@ -29,7 +29,7 @@ const query = graphql`
       }
     }
     methodology: allContentfulAllContentfulSkill(
-      filter: { name: { ne: null }, label: { eq: "Methodology" },  node_locale: { eq: "en-US"} }
+      filter: { name: { ne: null }, label: { eq: "Methodology" } }
       sort: { fields: name, order: ASC }
     ) {
       nodes {
