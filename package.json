@@ -56,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oschweitzer/gatsby-site"
+    "url": "https://github.com/madgrid/gatsby-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/oschweitzer/gatsby-site/issues"
+    "url": "https://github.com/madgrid/gatsby-portfolio/issues"
   }
 }
