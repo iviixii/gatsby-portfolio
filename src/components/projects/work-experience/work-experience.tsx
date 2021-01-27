@@ -10,8 +10,9 @@ import styles from './work-experience.module.scss';
 
 const query = graphql`
   {
-    allContentfulAllContentfulWorkExperience(filter: {title: {ne: null}}, sort: {fields: startDate, order: DESC}) {
+    allContentfulAllContentfulWorkExperience(filter: {title: {ne: null}, node_locale: {eq: "en-US"}}, sort: {fields: startDate, order: DESC}) {
       nodes {
+        node_locale
         company
         title
         references
