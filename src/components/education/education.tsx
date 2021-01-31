@@ -7,7 +7,7 @@ import styles from './education.module.scss';
 
 const query = graphql`
   {
-    allContentfulAllContentfulEducation(filter: {degree: {ne: null}}, sort: {fields: endDate, order: DESC}) {
+    allContentfulAllContentfulEducation(filter: {degree: {ne: null}, node_locale: {eq: "en-US"}}, sort: {fields: endDate, order: DESC}) {
       nodes {
         degree
         description {
