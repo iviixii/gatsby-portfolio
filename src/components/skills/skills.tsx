@@ -46,8 +46,6 @@ const Skills = () => {
   const technologies = data.technologies.nodes;
   const communication = data.communication.nodes;
   const methodology = data.methodology.nodes;
-  console.log('techno: ', technologies)
-  console.log('communication: ', communication)
   return (
     <React.Fragment>
       <section>
