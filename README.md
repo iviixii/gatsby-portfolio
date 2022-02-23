@@ -12,7 +12,7 @@ Portfolio site using GatsbyJS and TypeScript.
 # Run
 
 ## Dev
-
+## TODO: add .env script
 When developing, run `CONTENTFUL_SPACE_ID=<contenful_space_id> CONTENTFUL_ACCESS_TOKEN=<contentful_token> GITHUB_TOKEN=<github_token> npm run start`.
 
 ## Production
